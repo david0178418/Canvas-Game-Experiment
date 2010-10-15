@@ -1,0 +1,32 @@
+<html>
+
+	<head>
+		
+		<link href="master.css" rel="stylesheet"/>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" ></script>
+		
+		<script src="renderer.js"></script>
+		<script src="player.js"></script>
+		<script src="script.js"></script>
+		<script src="beam.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<script>
+			
+			$(function () {
+				game = Game();
+				game.start();
+				}
+			);
+			
+		</script>
+		
+		<canvas width="848" height="480"></canvas>
+		
+	</body>
+	
+</html>
