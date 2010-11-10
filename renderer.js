@@ -4,7 +4,6 @@ function Renderer() {
 		ctx = $(GLOBAL.gameCanvasId)[0].getContext('2d');
 	
 	function registerDrawMethods(draw, clear) {
-		
 		renderingList.push(draw);
 		clearList.push(clear);
 	}
@@ -28,5 +27,5 @@ function Renderer() {
 		clear				: clear,
 		render				: render,
 		registerDrawMethods	: registerDrawMethods
-	}
+	};
 }

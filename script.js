@@ -1,3 +1,8 @@
+var GLOBAL = {
+	gameCanvasId	: 'canvas',
+	render			: false
+};
+
 function Game() {
 	var player,
 	fieldBorder,
@@ -7,11 +12,6 @@ function Game() {
 	render,
 	tick,
 	speed;
-	
-	GLOBAL = {
-		gameCanvasId	: 'canvas',
-		render			: false
-	};
 	
 	function start() {
 		canvas = $(GLOBAL.gameCanvasId);

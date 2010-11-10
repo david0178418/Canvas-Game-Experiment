@@ -7,7 +7,6 @@ function Player() {
 	maxVelocity = 10,
 	powerUpTick = false,
 	powerUpRate = 200,
-	renderer = window.CTX,
 	size = 10,
 	shotPower = 0,
 	clearingSize = size + 1,
